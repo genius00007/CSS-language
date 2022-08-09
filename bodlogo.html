@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        grid-template-rows:repeat(4, 100px);
+        grid-template-areas:
+        "orange orange orange orange"
+        "blue blue . red"
+        "green green green green" ;
+        border: 1px solid black;
+    }
+    .box1 {
+      grid-area: orange;
+      background-color: orange;
+    }
+    .box2 {
+      grid-area: blue;
+      background-color: blue;
+    }
+    .box3 {
+      grid-area:red;
+      background-color: red;
+    }
+    .box4 {
+      grid-area: green;
+      background-color: green;
+    }
+        
+</style>
+  <body>
+    <div class="container">
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+  </div>
+   
+  </body>
+</html>
+ 

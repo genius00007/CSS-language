@@ -1,0 +1,85 @@
+.body {
+     background-color: orange;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+}
+
+@keyframes hairtsag {
+    to {
+        transform: scale(0);
+    }
+}
+.box {
+    animation: hairtsag 1s linear infinite alternate;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+}
+.boxOne {
+    animation-delay: 1s
+}
+.boxTwo {
+    animation-delay: 1.5s;
+}
+
+
+.boxThree {
+    animation-delay: 2s
+}
+.boxFour {
+    animation-delay: 0.5s
+}
+.boxFive {
+    animation-delay: 1s
+}
+.boxSix {
+    animation-delay: 1.5s
+}
+.boxSeven {
+    animation-delay: 0s
+}
+.boxEight {
+    animation-delay: 0.5s
+}
+.boxNine {
+    animation-delay: 1.5s
+}
+/* .body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+/* } */
+.flex{
+    background-color: purple;
+    height: 100px;
+    width: 20px;
+    animation: box 2s linear  infinite ;
+    display: inline-block;
+}
+ /* @keyframes box{
+  0%, 40%, 100%{
+    transform: scaleY(1);
+   }
+   20%{
+    transform: scaleY(2);
+   }
+}
+.box1{
+    animation-delay: 0.1s;
+}
+.box2{
+    animation-delay: 0.2s;
+}
+.box3{
+    animation-delay: 0.3s;
+}
+.box4{
+    animation-delay: 0.4s;
+}
+.box5{
+    animation-delay: 0.5s;
+} */

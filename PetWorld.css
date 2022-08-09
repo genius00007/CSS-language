@@ -1,0 +1,131 @@
+.container {
+    width: 820px;
+    height: 550px;
+    background-color: brown;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxOne {
+    width: 200px;
+    height: 300px;
+    background-color: white;
+
+}
+
+.boxTwo {
+    width: 200px;
+    height: 250px;
+    background-color: white;
+}
+
+.boxThree {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.miniContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Tom {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.zuragOne {
+    width: 200px;
+    height: 200px;
+}
+
+.zuragTwo {
+    width: 200px;
+    height: 150px;
+}
+
+.zuragThree {
+    width: 200px;
+    height: 200px;
+}
+
+.zuragFour {
+    width: 200px;
+    height: 200px;
+}
+
+.zuragFive {
+    width: 200px;
+    height: 200px;
+}
+
+.zuragSix {
+    width: 200px;
+    height: 200px;
+}
+
+.zuragSeven {
+    width: 200px;
+    height: 150px;
+}
+
+.zuragEight {
+    width: 200px;
+    height: 200px;
+}
+.buttonOne {
+    margin-left: 40px;
+}
+.useg {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.une {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.spanOne {
+    text-decoration:line-through;
+    color: gray;
+}
+.spanTwo {
+    color:goldenrod;
+    margin-left: 5px;
+}
+.usegOne {
+    margin-bottom: 60px;
+    margin-left: 80px;
+}
+
+.usegTwo {
+    margin-left: 80px;
+}
+
+.uneOne {
+    margin-left: 50px;
+    color: goldenrod;
+}
+.buttonTwo {
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.usegThree {
+    margin-bottom: 20px;
+    margin-left: 80px;
+}
+.uneTwo {
+    margin-left: 60px;
+    color: goldenrod;
+}
+.uneThree {
+    margin-left: 80px;
+    color: goldenrod;
+}

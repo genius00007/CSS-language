@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .box {
+        height: 700px;
+        width: 600px;
+        background-color: white;
+        transition: height;
+    }
+
+    .boxOne {
+        transition: 1s ease;
+        animation: muur 1s 2s infinite;
+    }
+    @keyframes muur {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    .box:hover {
+        height: 900px;
+
+    }
+
+    .boxOne:hover {
+        transform: scale(1.2);
+        transition-timing-function: ease;
+    }
+
+    .class {
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ner {
+        font-size: xx-large;
+        position: absolute;
+        left: 1050px;
+        top: 600px;
+
+    }
+
+    .button {
+        height: 50px;
+        width: 200px;
+        background-color: gray;
+        font-size: larger;
+        position: relative;
+        left: 200px;
+        top: 120px;
+        display: none;
+    }
+
+    .boxOne:hover+.button {
+        display: block;
+    }
+    .box:hover+.boxOne {
+        transition: 1s ease;
+        animation: muur 1s infinite;
+
+    }
+</style>
+
+<body class="class">
+    <div class="box"><img class="boxOne"
+            src="https://wpthemes.themehunk.com/pet-world/wp-content/uploads/sites/135/2020/08/cat-1.png" alt="">
+            <button class="button">Read more</button>
+        <div class="ner">Cat 1</div>
+        <button class="button">Read more</button>
+    </div>
+
+</body>
+
+</html>

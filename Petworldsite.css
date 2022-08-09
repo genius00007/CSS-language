@@ -1,0 +1,30 @@
+.gridtempelate {
+    display: grid;
+    grid-template-columns: 200px 500px 200px;
+    grid-template-rows: auto;
+}
+.header {
+    background-color: red;
+    height: 100px;
+    grid-area: 1 / span 2;
+}
+.main {
+    background-color: blue;
+    height: 800px;
+    grid-area: 1 / span 2;
+}
+.section1 {
+    background-color: green;
+    height: 400px;
+    width: 400px;
+}
+.section2 {
+    background-color: white;
+    height: 400px;
+    width: 400px;
+}
+.footer {
+    background-color: yellow;
+    height: 100px;
+    grid-area: 1 / span 2;
+}
